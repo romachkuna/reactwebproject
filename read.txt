@@ -1,0 +1,2 @@
+npm start marketing folder
+node index.js in server folder

@@ -1,0 +1,148 @@
+.everything .head-title{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.everything header {
+    background: black;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+.everything header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+    background-image: black;  /*ეს ცვლის ფერს */
+}
+
+.everything h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+
+.everything p {
+    margin-bottom: 30px;
+}
+
+.everything button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+.everything button:hover {
+    cursor: pointer;
+}
+
+.everything .wrap {
+    padding: 10% 20%;
+}
+.everything h2 {
+    margin-top: 3em;
+    color: grey;
+
+.everything &
+:first-child {
+    margin-top: 0;
+}
+
+}
+.everything .underlined {
+    color: black;
+    flex: 1;
+    font-size: 2em;
+    line-height: 1.2;
+    text-decoration: none;
+    background-position: 0 1.2em;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background 0.5s;
+
+.everything &
+:hover {
+    background-size: 100% 100%;
+}
+
+.everything &
+--thin {
+    background-image: linear-gradient(to right, black 0, black 100%);
+}
+
+.everything &
+--thick {
+    background-position: 0 -0.3em;
+}
+
+.everything &
+--offset {
+    background-position: 0 0.2em;
+
+    box-shadow: inset 0 -0.5em 0 0 white;
+}
+
+.everything &
+--gradient {
+    background-position: 0 -0.1em;
+}
+
+.everything &
+--reverse {
+    background-position: 100% -0.1em;
+    transition: background 1s;
+}
+
+}
+
+.everything .desc-text{
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.everything .desc-text hr {
+
+}
+.everything .container {
+    width: 60%;
+    margin: 1rem auto;
+    padding: 2rem;
+    text-align: justify;
+    transition: all 0.3s;
+}
+.everything .container p {
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+}
+
+.everything .container p:first-child::first-letter {
+    font-weight: bold;
+    font-size: 70px;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    margin-top: -3px;
+}
+
+@media screen and (max-width: 600px) {
+    .everything .container {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+

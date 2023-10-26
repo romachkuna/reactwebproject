@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-icons": "^4.4.0",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-simple-chatbot": "^0.6.1"
+  }
+}

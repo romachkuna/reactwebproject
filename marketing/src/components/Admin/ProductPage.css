@@ -1,0 +1,72 @@
+.ppage .reset {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  
+.ppage .reset:hover {
+    opacity: 1;
+  }
+
+.ppage .optionss {
+    text-align: center;
+}
+.ppage .departament {
+  text-align: center;
+}
+
+.ppage .dropbtn {
+  opacity: 0.9;
+  background-color: gray;
+  border-radius: 10px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.ppage .dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.ppage .sort {
+  appearance: none;
+  background-color: black;
+  color: white;
+}
+
+.ppage .sort .option{
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+
+.ppage .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 225px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.ppage .dropdown-content .filter {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: grid;
+}
+
+.ppage .dropdown-content .filter:hover {background-color: #ddd;}
+
+.ppage .dropdown:hover .dropdown-content {display: block;}
+
+.ppage .dropdown:hover .dropbtn {background-color: gray;}

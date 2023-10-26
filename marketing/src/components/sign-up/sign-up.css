@@ -1,0 +1,80 @@
+body,
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add styles to the form container */
+.bg-img .container {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  margin: 20px;
+  width: 250px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1rem;
+}
+
+.bg-img label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Full-width input fields */
+.bg-img input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 1rem;
+}
+
+.bg-img input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"] {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.bg-img .submit {
+  background-color: rgb(3, 3, 2);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 1rem;
+}
+
+.bg-img .submit:hover {
+  opacity: 1;
+}
+
+.bg-img .login {
+  text-align: center;
+}
+
+.bg-img .logobuttons {
+  position: relative;
+  left: 60px;
+  top: 5px;
+}
+
+.bg-img a:hover {
+  color: palevioletred;
+}
+
+.bg-img {
+  zoom: 0.9;
+  -moz-transform: scale(0.9);
+}
